@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 80px;
+}
+nav .navbar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+nav .navbar .one{
+    width: 30%;
+    height: 80%;
+    margin-top: 10px;
+}
+nav .navbar .one img{
+    width: 20%;
+    height: 100%;
+    margin-left: 40px;
+}
+nav .navbar .two{
+    width: 40%;
+    height: 80%;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+nav .navbar .two ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+nav .navbar .two ul li{
+    list-style: none;
+}
+nav .navbar .two ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav .navbar .two ul .Icon{
+    display: flex;
+}
+.form{
+    width: 100%;
+    background-image: url(pics/HR-analytics-1.jpg);
+    height: 120vh;
+    padding-top: 100px;
+}
+.form .signIn{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(76, 74, 78);
+    height: 80vh;
+    border-radius: 10px;
+}
+.form .signIn h1{
+    margin-top: 100px;
+    font-size: 40px;
+    color: white;
+}
+.form .signIn h1:hover{
+    color: rgb(215, 215, 54);
+    transition: 2s;
+}
+
+.form .signIn .text {
+    margin-top: 20px;
+}
+.form .signIn .text i{
+    padding-right: 100px;
+}
+.form .signIn .text #email{
+
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 100px;
+    padding-left: 10px;
+}
+.form .signIn .text #password{
+    width: 300px;
+    height: 40px;
+    font-size:  18px;
+    padding-left: 10px;
+}
+.form .signIn .signInBtn{
+    margin-top: 100px;
+}
+.form .signIn .signInBtn #singIn{
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: green;
+    border: none;
+    color: white;
+}
+.form .signIn .signInBtn #singUp{
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: green;
+    border: none;
+    color: white;
+}
+.form .signIn .signInBtn #back{
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: green;
+    border: none;
+    color: white;
+}
+.form .signIn .signInBtn #back:hover{
+    background-color: red;
+    transition: 2s;
+}
+.form .signIn .signInBtn #singUp:hover{
+    background-color: red;
+    transition: 2s;
+}
+.form .signIn .signInBtn #singIn:hover{
+    background-color: red;
+    transition: 2s;
+}
+.footer{
+    width: 100%;
+    background-color: black;
+    margin-top: 50px;
+}
+.footer .inner{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .inner .icons{
+    width: 40%;
+
+}
+.footer .inner .icons img{
+    width: 30%;
+    height: 100px;
+    margin-top: 30px;
+}
+.footer .inner .main{
+    width: 16%;
+}
+.footer .inner .main .names{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 30px;
+}
